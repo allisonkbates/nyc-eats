@@ -1,0 +1,10 @@
+div {
+	height: 400px;
+	width: 400px;
+	display:flex;
+}
+
+h1 {
+	font-family: sans-serif;
+	font-size: 32px;
+}
