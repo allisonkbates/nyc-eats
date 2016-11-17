@@ -2,19 +2,27 @@
 <html>
 	<head>
 		<title>First Charts!</title>
-    	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.1/Chart.min.js"></script>
+    	<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.1/Chart.min.js"></script>-->
+    	<script src="Chart.js"></script>
     	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     	<link rel="stylesheet" type="text/css" href="FirstCharts.css">
 	</head>
 	<body>
-		<h1>This is a page of charts!</h1>
-		<div>
-			<canvas id="myChart" width="200" height="200"></canvas>
-		<div>
-		<div>
-			<canvas id="myLineChart" width="200" height="200"></canvas>
-		</div>	
+		<header>
+			<h1>This is a page of charts!</h1>
+		</header>
+		<div class = "section">
+			<div class ="chart">
+				<canvas id="myChart" width="400" height="400"></canvas>
+			</div>
+			<div class= "chart">
+				<canvas id="myLineChart" width="200" height="200"></canvas>
+			</div>
+			<div class= "chart">
+				<canvas id="myPieChart" width="200" height="200"></canvas>
+			</div>
+		</div>
 		<script src="FirstCharts.js">			
 		</script>
 </body>	
-</html>
+</html>	
