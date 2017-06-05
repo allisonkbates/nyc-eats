@@ -1,0 +1,97 @@
+@font-face {
+	font-family: Dancing;
+	src: url('Dancing.ttf');
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header {
+	background-color: #efd9ce;
+	height: 150px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+h1, h2 {
+	font-family: Dancing;
+	font-size: 100px;
+	color: #25283d;
+}
+
+.section {
+	display: flex;
+	height: 600px;
+	width: 100%;
+	background-color: #efd9ce;
+	align-items: center ;
+}
+
+.meet {
+	background-color: #ffffff;
+}
+
+.header {
+	width: 25%;
+	padding: 50px 50px 50px 200px;
+	margin: 0;
+	align-items: center;
+	text-align: center;
+}
+
+.team {
+	width: 60%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-left: 50px;
+}
+
+.person {
+	height: 250px;
+	width: 250px;
+	margin: 20px;
+	display: flex;	
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+p {
+	color: #25283d;
+	font-family: Dancing;
+	font-size: 36px;
+	margin: 0;
+	padding: 10px 0px 0px 0px;
+}
+
+.becky-pic {
+	border: 10px solid #98dfea;
+}
+
+.jessica-pic {
+	border: 10px solid #8f3985;
+}
+
+.jovo-pic {
+	border: 10px solid #07beb8;
+}
+
+.kelli-pic {
+	border: 10px solid #25283d;
+}
+
+.chart {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 100px;	
+	padding: 50px;
+	background-color: #ffffff;
+}

@@ -1,0 +1,40 @@
+@font-face {
+	font-family: Dancing;
+	src: url('Dancing.ttf');
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+header {
+	background-color: #efd9ce;
+	height: 150px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+h1, h2 {
+	font-family: Dancing;
+	font-size: 100px;
+	color: #25283d;
+}
+
+.form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 50px;
+}
+
+input {
+	margin: 20px;
+}
